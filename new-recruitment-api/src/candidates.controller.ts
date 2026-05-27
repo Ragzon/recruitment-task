@@ -9,6 +9,7 @@ export class CandidatesController {
     }
 
     getAll(req: Request, res: Response) {
+        // var 
         console.log(x);
         var x = 1;
         res.json([]);
